@@ -1,0 +1,39 @@
+.header-top
+    padding-top 24px
+
+    &__wrap
+        display flex
+        justify-content space-between
+
+    &__wrap__telephone
+        display flex
+        padding-top 27px
+        color $c-black
+
+    &__wrap__city
+        display flex
+        padding-top 27px
+        color $c-black
+        &:after
+            content ''
+            width 5px
+            height 5px
+            border-top 2px solid $c-black !important
+            border-right 2px solid $c-black !important
+            margin 3px 0 0 8px
+            transform rotate(135deg)
+            display inline-block
+            transition 1s
+
+    &__wrap__authorization
+        display flex
+        padding-top 27px
+        height 47px
+        color $c-black
+
+    &__authorization-entrance
+        width 44px
+        border-right 1px solid $c-black
+
+    &__authorization-registration
+        padding-left 10px

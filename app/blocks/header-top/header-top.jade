@@ -1,0 +1,24 @@
+mixin header-top()
+
+    +b('section').header-top
+        .container 
+            +e.wrap
+                +e.wrap__city
+                    +e.city-icon
+                        img(src='/images/marker.svg')
+                    +e('p').city-text Санкт-Петербург
+
+                +e.wrap__telephone
+                    +e.telephone-icon
+                        img(src='/images/telephone.svg')
+                    +e('p').city-text 8 800 785-25-35
+
+                +e.wrap__logo
+                    img(src='/images/logo.png')
+
+                +e.wrap__authorization
+                    +e('p').authorization-entrance Вход
+                    +e('p').authorization-registration Регистрация
+
+
+
