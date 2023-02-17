@@ -12,7 +12,7 @@
 
     &__wrap__city
         display flex
-        padding 27px 10px 0 0
+        padding-top 27px
         color $c-black
         &:after
             content ''
@@ -24,15 +24,35 @@
             transform rotate(135deg)
             display inline-block
             transition 1s
+    
+    &__city-text
+        padding 0 8px 0 10px
+        font-family 'Inter'
+        font-weight 400
+        font-size 14px
+        line-height 100%
+
+    &__telephone-text
+        padding-left 10px
+        font-family 'Inter'
+        font-weight 400
+        font-size 14px
+        line-height 100%
+
 
     &__wrap__authorization
         display flex
         padding-top 27px
         height 47px
         color $c-black
+        font-family 'Inter'
+        font-weight 400
+        font-size 14px
+        line-height 100%
+
 
     &__authorization-entrance
-        width 44px
+        padding-right 10px
         border-right 1px solid $c-black
 
     &__authorization-registration
@@ -43,5 +63,6 @@
         display flex
 
     &__actions-img
-        &:last-child
-            padding-left 36px
+        padding-left 36px
+        &:first-child
+            padding-left 0

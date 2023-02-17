@@ -1,5 +1,6 @@
 extends /blocks/layout-default/layout-default
 include /blocks/header-top/header-top
+include /blocks/header-lower/header-lower
 include /blocks/article/article
 
 block head
@@ -7,4 +8,5 @@ block head
 
 block content
 	+header-top()
+	+header-lower()
 	+article()
