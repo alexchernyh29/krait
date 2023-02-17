@@ -1,8 +1,10 @@
 extends /blocks/layout-default/layout-default
 include /blocks/header-top/header-top
+include /blocks/article/article
 
 block head
 	- var pageTitle = 'Project Template';
 
 block content
 	+header-top()
+	+article()
