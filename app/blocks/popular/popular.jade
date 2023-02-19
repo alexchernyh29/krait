@@ -1,0 +1,38 @@
+mixin popular()
+
+    +b('section').popular
+
+        .container
+            +e.wrap
+                +e('p').wrap__heading Популярные категории
+                +e.wrap__product-cards
+
+                    +e.product-cards-content
+                        +e.content-img-rings
+                            img(src='/images/rings.png')
+                        +e('p').content-name.name-rings Кольца
+
+                    +e.product-cards-content
+                        +e.content-img-earrings
+                            img(src='/images/earrings.png')
+                        +e('p').content-name.name-earrings Серьги
+
+                    +e.product-cards-content
+                        +e.content-img-engagement-rings 
+                            img(src='/images/engagement-rings.png')
+                        +e('p').content-name.name-engagement-rings Помолвочные кольца
+
+                    +e.product-cards-content
+                        +e.content-img-bracelets
+                            img(src='/images/bracelets.png')
+                        +e('p').content-name.name-bracelets Браслеты
+                        
+                    +e.product-cards-content
+                        +e.content-img-necklace
+                            img(src='/images/necklace.png')
+                        +e('p').content-name.name-necklace Колье и подвески
+
+                    +e.product-cards-content
+                        +e.content-img-watch
+                            img(src='/images/watch.png')
+                        +e('p').content-name.name-watch Часы

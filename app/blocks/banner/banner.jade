@@ -1,0 +1,35 @@
+mixin banner()
+
+    +b('section').banner
+
+        .container
+            +e.wrap 
+                +e.wrap__slider.mySwiper
+                    +e.slider-wrapper.swiper-wrapper
+                        +e.wrapper-content.swiper-slide
+                            +e.swiper-text
+                                +e.text-discount Суперскидка до 60%
+                                +e.text-name НА БРИЛЛИАНТЫ
+                                +e('a').text-button(href="#") Подробнее
+                            +e.swiper-img 
+                                img(src='/images/ring-banner.png')   
+
+                        +e.wrapper-content.swiper-slide
+                            +e.swiper-text
+                                +e.text-discount Суперскидка до 60%
+                                +e.text-name НА БРИЛЛИАНТЫ
+                                +e('a').text-button(href="#") Подробнее
+                            +e.swiper-img 
+                                img(src='/images/ring-banner.png')
+                        +e.wrapper-content.swiper-slide
+                            +e.swiper-text
+                                +e.text-discount Суперскидка до 60%
+                                +e.text-name НА БРИЛЛИАНТЫ
+                                +e('a').text-button(href="#") Подробнее
+                            +e.swiper-img 
+                                img(src='/images/ring-banner.png')
+
+                    +e.slider-pagination.swiper-pagination
+
+                +e.button__next.swiper-button-next ⟶
+                +e.button__prev.swiper-button-prev ⟵

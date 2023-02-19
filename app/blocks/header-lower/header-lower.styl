@@ -2,13 +2,32 @@
 
     &__wrap
         display flex
+        width 100%
         justify-content space-between
         background-color $c-grey
 
     &__wrap__menu
         display flex
+        width 997px
+        padding 25px 0 24px 0
 
     &__menu-text
         padding-left 60px
+        font-family 'Inter'
+        font-weight 500
+        font-size 13px
+        color $c-black
         &:first-child
             padding-left 50px
+
+    &__wrap__search
+        display flex
+        align-items center
+        padding-left 26px
+        width 303px
+        border-left 1px solid $c-light-grey
+
+    &__search-input
+        border none
+        background-color $c-grey
+        padding-left 17px

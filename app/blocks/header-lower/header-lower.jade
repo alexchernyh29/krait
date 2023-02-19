@@ -11,4 +11,8 @@ mixin header-lower()
                     +e('li').menu-text О нас
                     +e('li').menu-text Доставка и оплата
                     +e('li').menu-text Статьи
+                +e.wrap__search
+                    +e.search-img
+                        img(src='/images/union.svg')
+                    +e('input')(type='text' placeholder='Поиск по сайту').search-input
 
