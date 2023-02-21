@@ -1,0 +1,159 @@
+.sale
+    padding-top 120px
+    position relative
+
+
+    &__wrap
+        overflow hidden
+
+    &__wrap__title
+        font-family 'Prata'
+        font-weight 400
+        font-size 40px
+        color $c-black
+
+    &__wrap__tads
+        padding-top 24px
+
+    &__tads-list
+        display flex
+        position relative
+
+
+    &__list-item
+        background-color $c-grey 
+        padding 13px 30px 13px 30px
+        border-radius 21px
+        margin-left 8px
+        font-family 'Inter'
+        font-weight 400
+        font-size 14px
+        color $c-black
+        cursor pointer
+        -webkit-transition all .5s ease
+        -moz-transition all .5s ease
+        -ms-transition all .5s ease
+        -o-transition all .5s ease  
+        &:first-child
+            margin-left 0
+        &:hover
+            background $c-black
+            color $c-white
+
+    &__tads-products
+        display flex
+        padding-top 36px
+        justify-content space-between
+
+    &__tads-cards
+        padding 16px 22px 26px 24px
+        border 1px solid $c-light-grey
+        width 310px
+        overflow hidden
+
+    &__cards-header
+        display flex
+
+    &__cards-header-sale
+        width 50px
+        height 21px
+        border-radius 15px
+        padding 4px 12px
+        background-color $c-turquoise
+
+    &__sale__cards-slide
+        overflow hidden
+
+    &__cards-header-sale-header-text
+        font-family 'Inter'
+        font-weight 500
+        font-size 13px
+        color $c-white
+
+    &__cards-header-actions
+        padding-left 194px
+        &:first-child
+            padding-left 248px
+
+    &__actions-img-viewing
+        padding-top 15px
+
+
+    &__content-img
+        width 200px
+        margin 0 auto
+
+    &__cards-price
+        display flex
+        padding-top 32px
+
+    &__price-text
+        font-family 'Inter'
+        font-weight 600
+        font-size 18px
+        line-height 100%
+        color $c-black
+
+    &__price-text-not-relevant
+        padding-left 8px
+        font-family 'Inter'
+        font-weight 400
+        font-size 14px
+        text-decoration line-through
+        color $c-dark-grey
+
+    &__price-discount
+        margin-left 63px
+        padding 4px 8px
+        background-color $c-orange
+        border-radius 15px
+
+    &__discount-text
+        font-family 'Inter'
+        font-weight 500
+        font-size 13px
+        color $c-white
+
+    &__cards-description
+        padding-top 16px
+
+    &__description-text
+        font-family 'Inter'
+        font-weight 400
+        font-size 14px
+        line-height 160%
+        color $c-black
+
+    &__button__next,
+    &__button__prev
+        position absolute
+        // top 50%
+        // top 253px
+        border 1px solid $c-black
+        background $c-grey
+        z-index 11
+        border-radius 50%
+        width 54px
+        height 54px
+        color $c-black
+        margin-top calc(0px - (var(--swiper-navigation-size)/ 2))
+        z-index 10
+        cursor pointer
+        display flex
+        align-items center
+        justify-content center
+
+    &__button__next
+        right 0
+
+    &__button__prev
+        right 65px
+
+    .swiper-pagination
+        position inherit
+
+    .swiper-pagination-bullet-active
+        background-color $c-black
+        width 8px
+        height 8px
+

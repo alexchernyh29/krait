@@ -1,0 +1,262 @@
+mixin sale()
+
+    +b('section').sale
+
+        .container
+            +e.wrap
+                +e('p').wrap__title Распродажа
+                +e.wrap__tads
+                    +e.tads-list
+                        +e.list-item Кольца
+                        +e.list-item Серьги
+                        +e.list-item Браслеты
+                        +e.list-item Часы
+                        +e.button__next ⟶
+                        +e.button__prev ⟵
+
+                    +e.wrap__slider.productsSwiper
+                        +e.slider-wrapper.swiper-wrapper
+                            +e.wrapper-content.swiper-slide
+                    
+                                +e.tads-products
+
+                                    +e.tads-cards
+                                        +e.cards-header
+                                            +e.cards-header-sale
+                                                +e('p').cards-header-sale-header-text Sale
+                                            +e.cards-header-actions
+                                                +e.actions-img-like 
+                                                    img(src='/images/like.svg')
+                                                +e.actions-img-viewing
+                                                    img(src='/images/viewing.svg')
+
+                                        +e.cards-slide.Swiper
+
+                                            +e.slide-wrapper.swiper-wrapper
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-first-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-first-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-first-ring.png')
+
+                                            +e.slider-pagination.swiper-pagination
+
+                                        +e.cards-price
+                                            +e('p').price-text 41 000 ₽
+                                            +e('p').price-text-not-relevant 65 000 ₽
+                                            +e.price-discount
+                                                +e('p').discount-text -45%
+                                        +e.cards-description
+                                            +e('p').description-text Стильное кольцо из белого золота c бриллиантами
+
+                                    +e.tads-cards
+                                        +e.cards-header
+                                            +e.cards-header-actions
+                                                +e.actions-img-like 
+                                                    img(src='/images/like.svg')
+                                                +e.actions-img-viewing 
+                                                    img(src='/images/viewing.svg')
+
+                                        +e.cards-slide.Swiper
+
+                                            +e.slide-wrapper.swiper-wrapper
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-second-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-second-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-second-ring.png')
+
+                                            +e.slider-pagination.swiper-pagination
+
+                                        +e.cards-price
+                                            +e('p').price-text 41 000 ₽
+                                        +e.cards-description
+                                            +e('p').description-text Стильное кольцо из белого золота c бриллиантами
+
+                                    +e.tads-cards
+                                        +e.cards-header
+                                            +e.cards-header-actions
+                                                +e.actions-img-like 
+                                                    img(src='/images/like.svg')
+                                                +e.actions-img-viewing
+                                                    img(src='/images/viewing.svg')
+
+                                        +e.cards-slide.Swiper
+
+                                            +e.slide-wrapper.swiper-wrapper
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-third-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-third-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-third-ring.png')
+
+                                            +e.slider-pagination.swiper-pagination
+
+                                        +e.cards-price
+                                            +e('p').price-text 41 000 ₽
+                                        +e.cards-description
+                                            +e('p').description-text Стильное кольцо из белого золота c бриллиантами
+
+                                    +e.tads-cards
+                                        +e.cards-header
+                                            +e.cards-header-actions
+                                                +e.actions-img-like 
+                                                    img(src='/images/like.svg')
+                                                +e.actions-img-viewing 
+                                                    img(src='/images/viewing.svg')
+
+                                        +e.cards-slide.Swiper
+
+                                            +e.slide-wrapper.swiper-wrapper
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-fourth-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-fourth-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-fourth-ring.png')
+
+                                            +e.slider-pagination.swiper-pagination
+
+                                        +e.cards-price
+                                            +e('p').price-text 41 000 ₽
+                                        +e.cards-description
+                                            +e('p').description-text Стильное кольцо из белого золота c бриллиантами
+
+                            +e.wrapper-content.swiper-slide
+                    
+                                +e.tads-products
+
+                                    +e.tads-cards
+                                        +e.cards-header
+                                            +e.cards-header-sale
+                                                +e('p').cards-header-sale-header-text Sale
+                                            +e.cards-header-actions
+                                                +e.actions-img-like 
+                                                    img(src='/images/like.svg')
+                                                +e.actions-img-viewing
+                                                    img(src='/images/viewing.svg')
+
+                                        +e.cards-slide.Swiper
+
+                                            +e.slide-wrapper.swiper-wrapper
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-first-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-first-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-first-ring.png')
+
+                                            +e.slider-pagination.swiper-pagination
+
+                                        +e.cards-price
+                                            +e('p').price-text 41 000 ₽
+                                            +e('p').price-text-not-relevant 65 000 ₽
+                                            +e.price-discount
+                                                +e('p').discount-text -45%
+                                        +e.cards-description
+                                            +e('p').description-text Стильное кольцо из белого золота c бриллиантами
+
+                                    +e.tads-cards
+                                        +e.cards-header
+                                            +e.cards-header-actions
+                                                +e.actions-img-like 
+                                                    img(src='/images/like.svg')
+                                                +e.actions-img-viewing 
+                                                    img(src='/images/viewing.svg')
+
+                                        +e.cards-slide.Swiper
+
+                                            +e.slide-wrapper.swiper-wrapper
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-second-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-second-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-second-ring.png')
+
+                                            +e.slider-pagination.swiper-pagination
+
+                                        +e.cards-price
+                                            +e('p').price-text 41 000 ₽
+                                        +e.cards-description
+                                            +e('p').description-text Стильное кольцо из белого золота c бриллиантами
+
+                                    +e.tads-cards
+                                        +e.cards-header
+                                            +e.cards-header-actions
+                                                +e.actions-img-like 
+                                                    img(src='/images/like.svg')
+                                                +e.actions-img-viewing
+                                                    img(src='/images/viewing.svg')
+
+                                        +e.cards-slide.Swiper
+
+                                            +e.slide-wrapper.swiper-wrapper
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-third-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-third-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-third-ring.png')
+
+                                            +e.slider-pagination.swiper-pagination
+
+                                        +e.cards-price
+                                            +e('p').price-text 41 000 ₽
+                                        +e.cards-description
+                                            +e('p').description-text Стильное кольцо из белого золота c бриллиантами
+
+                                    +e.tads-cards
+                                        +e.cards-header
+                                            +e.cards-header-actions
+                                                +e.actions-img-like 
+                                                    img(src='/images/like.svg')
+                                                +e.actions-img-viewing 
+                                                    img(src='/images/viewing.svg')
+
+                                        +e.cards-slide.Swiper
+
+                                            +e.slide-wrapper.swiper-wrapper
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-fourth-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-fourth-ring.png')
+                                                +e.wrapper-content.swiper-slide
+                                                    +e.content-img 
+                                                        img(src='/images/the-fourth-ring.png')
+
+                                            +e.slider-pagination.swiper-pagination
+
+                                        +e.cards-price
+                                            +e('p').price-text 41 000 ₽
+                                        +e.cards-description
+                                            +e('p').description-text Стильное кольцо из белого золота c бриллиантами
+
+                    //- +e.button__next.swiper-button-next ⟶
+                    //- +e.button__prev.swiper-button-prev ⟵        

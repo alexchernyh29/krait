@@ -1,13 +1,13 @@
 .header-top
-    padding 24px 0 23px 0
+    padding 24px 0 10px 0
 
     &__wrap
         display flex
-        justify-content space-between
+        // justify-content space-between
 
     &__wrap__telephone
         display flex
-        padding-top 27px
+        padding 27px 0 0 60px
         color $c-black
 
     &__wrap__city
@@ -16,11 +16,11 @@
         color $c-black
         &:after
             content ''
-            width 5px
-            height 5px
+            width 4px
+            height 4px
             border-top 2px solid $c-black !important
             border-right 2px solid $c-black !important
-            margin 3px 0 0 8px
+            margin-top 5px 
             transform rotate(135deg)
             display inline-block
             transition 1s
@@ -39,11 +39,14 @@
         font-size 14px
         line-height 100%
 
+    &__wrap__logo
+        padding-left 196px
+
 
     &__wrap__authorization
         display flex
-        padding-top 27px
-        height 47px
+        padding 27px 0 0 227px
+        height 40px
         color $c-black
         font-family 'Inter'
         font-weight 400
@@ -59,10 +62,10 @@
         padding-left 10px
 
     &__wrap__actions
-        padding-top 27px
+        padding 27px 0 0 71px
         display flex
 
     &__actions-img
-        padding-left 36px
+        padding-left 33px
         &:first-child
             padding-left 0

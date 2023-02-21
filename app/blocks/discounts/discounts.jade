@@ -1,0 +1,37 @@
+mixin discounts()
+
+    +b('section').discounts
+
+        .container
+            +e.wrap
+                +e.wrap__conent
+                    +e.conent-card
+                        +e.card-text
+                            +e.card-heading Скидки на<br>все украшения<br>с бриллиантами
+                            +e.card-rebate.earrings 
+                                +e('p').rebate-text До
+                                +e('p').rebate-percent -50% 
+
+                        +e.card-img 
+                            img(src='/images/earring.png')
+
+                    +e.conent-card
+                        +e.card-text
+                            +e.card-heading Скидки<br>на кольца и браслеты
+                            +e.card-rebate.diamond-rings
+                                +e('p').rebate-text До
+                                +e('p').rebate-percent -40% 
+
+                        +e.card-img 
+                            img(src='/images/diamond-rings.png')
+
+                    +e.conent-card
+                        +e.card-text
+                            +e.card-heading снижение цен  на обручальные кольца
+                            +e.card-rebate.wedding-rings 
+                                +e('p').rebate-text До
+                                +e('p').rebate-percent -60% 
+
+                        +e.card-img-wedding-rings
+                            img(src='/images/wedding-rings.png')
+

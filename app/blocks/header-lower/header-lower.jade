@@ -4,13 +4,20 @@ mixin header-lower()
         .container 
             +e.wrap
                 +e('ul').wrap__menu
-                    +e('li').menu-text Каталог
-                    +e('li').menu-text Акции
-                    +e('li').menu-text Бренды
-                    +e('li').menu-text Магазины
-                    +e('li').menu-text О нас
-                    +e('li').menu-text Доставка и оплата
-                    +e('li').menu-text Статьи
+                    +e('li').menu-text 
+                        +e('a').text-link(href="#") Каталог
+                    +e('li').menu-text 
+                        +e('a').text-link(href="#") Акции
+                    +e('li').menu-text
+                        +e('a').text-link(href="#") Бренды
+                    +e('li').menu-text 
+                        +e('a').text-link(href="#") Магазины
+                    +e('li').menu-text
+                        +e('a').text-link(href="#") О нас
+                    +e('li').menu-text
+                        +e('a').text-link(href="#") Доставка и оплата
+                    +e('li').menu-text
+                        +e('a').text-link(href="#") Статьи
                 +e.wrap__search
                     +e.search-img
                         img(src='/images/union.svg')
